@@ -1,0 +1,107 @@
+html, body { 
+	background-color: #FFFFFF; 
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+
+h1 {
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 600px;
+}
+
+h3 {
+	text-align: center;
+	color: white;
+	font-size: 80px;
+	line-height: 10px;	
+}
+
+
+/* the whole menu */
+ul {
+	display: inline-block;
+	text-align: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 90%;
+	/*  border: 1px solid #e7e7e7;  */
+}
+
+li { float:right; }
+
+/* each element in the menu */
+li a {
+	display: inline-block;
+	padding: 30px;
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 30px;
+}
+
+/* hovers over a content with the background color */
+li a:hover { background-color: #6D7B8D; }
+
+
+
+#homepage-div {
+	/*background-image: url("http://cdn.pcwallart.com/images/california-beaches-palm-trees-wallpaper-2.jpg"); */
+	background-image: url("http://www.californiabeaches.com/wp-content/uploads/2014/09/bigs-Sunset-at-Wipeout-Beach-La-Jolla-California-e1482282928458.jpg"); 
+	background-repeat: repeat-x;
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+	float: left;	
+}
+
+
+_____________________________________________________________________________________________________________________________________
+
+
+
+/* STRUCTURE */
+
+#pagewrap {
+	padding: 0px;
+	width: 900px;
+	margin: auto;
+}
+
+#content {
+	width:530px;
+	float: left;
+	padding: 10px 15px;
+	line-height: 40px;
+	margin-top: 350px;
+	margin: 200px;
+}
+
+#middle {
+	width: 600px; /* Account for margins + border values */
+	float: left;
+	padding: 10px 15px;
+	line-height: 40px;
+	margin-top: 350px;
+	margin: 200px;
+}
+
+#sidebar {
+	width: 500px;
+	padding: 5px 15px;
+	float: left;
+	line-height: 40px;
+	margin-top: 350px;
+	margin: 200px;
+}
+
+
+/*#sidebar {
+	background: #f0efef;
+}*/
+
+
