@@ -2,4 +2,4 @@
 
 Website (in progress)
 
-Website currently not to scale (in progress): Make browser is on Zoom: 100%
+Website currently not to scale (in progress): Make sure browser is on Zoom: 100%
