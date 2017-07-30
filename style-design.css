@@ -3,16 +3,8 @@ html, body {
 	height: 100%;
 	padding: 0;
 	margin: 0;
-	zoom: 72%;
+	zoom: 72%; 
 }
-
-
-h1 {
-	color: #FFFFFF;
-	text-align: center;
-	line-height: 600px;
-}
-
 
 /* the whole menu */
 ul {
@@ -23,7 +15,6 @@ ul {
 	padding: 0;
 	position: absolute;
 	width: 90%;
-	/*  border: 1px solid #e7e7e7;  */
 }
 
 li { float:right; }
@@ -39,12 +30,13 @@ li a {
 }
 
 /* hovers over a content with the background color */
-li a:hover { background-color: #6D7B8D; }
+li a:hover { background-color: #808B96; }
 
 
+/* MAIN PAGE index.html */
 
 #home1-div {
-	background-image: url("HomeBackground.jpg");
+	background-image: url("Images/HomeBackground.jpg");
 	background-repeat: no-repeat;
     background-attachment: fixed;
 	background-size: 100%;
@@ -62,7 +54,7 @@ li a:hover { background-color: #6D7B8D; }
 }
 
 #home3-div {
-	background-image: url("HomeBackground2.jpg");
+	background-image: url("Images/HomeBackground2.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100%;
