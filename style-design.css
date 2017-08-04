@@ -11,10 +11,11 @@ ul {
 	display: inline-block;
 	text-align: center;
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	margin: 0%;
+	padding: 0%;
 	position: absolute;
 	width: 90%;
+	font-family: 'Abel';
 }
 
 li { float:right; }
@@ -64,10 +65,10 @@ li a:hover { background-color: #808B96; }
 }
 
 #home4-div {
-	background-color: #FDF2E9;
+	background-color: black;
 	background-size: 100%;
 	padding-left: 1350px;
 	width: 53.95%;
-	height: 20%;
+	height: 21%;
 	float: left;	
 }
