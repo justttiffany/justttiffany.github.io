@@ -37,7 +37,7 @@ li a:hover { background-color: #808B96; }
 /* MAIN PAGE index.html */
 
 #home1-div {
-	background-image: url("Images/HomeBackground.jpg");
+	background-image: url("Images/lavender(1).jpg");
 	background-repeat: no-repeat;
     background-attachment: fixed;
 	background-size: 100%;
@@ -55,10 +55,11 @@ li a:hover { background-color: #808B96; }
 }
 
 #home3-div {
-	background-image: url("Images/HomeBackground2.jpg");
+	background-image: url("Images/lavender.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100%;
+	opacity: 0.9;
 	width: 100%;
 	height: 100%;
 	float: left;	
@@ -71,4 +72,21 @@ li a:hover { background-color: #808B96; }
 	width: 100%;
 	height: 21%;
 	float: left;	
+}
+
+@keyframes bouncing {
+    0% {bottom: 0;}
+    50% {bottom: 20px;}
+    100% {bottom: 0;}
+}
+
+.arrow {
+    animation: bouncing 1s infinite ease-in-out;
+    bottom: 0;
+    display: block;
+    height: 50px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    width: 50px;
 }
