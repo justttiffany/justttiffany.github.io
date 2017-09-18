@@ -27,11 +27,19 @@
 			    	font-size: 140px;
 			    	opacity: 0.8;
 				}
-				
+				@keyframes fadein {
+				    from { opacity: 0; }
+				    to   { opacity: 1; }
+				}
+				@-webkit-keyframes fadein {
+				    from { opacity: 0; }
+				    to   { opacity: 1; }
+				}
 				h1 {
 					color: #FFFFFF;
 					text-align: center;
 					line-height: 600px;
+					-webkit-animation: fadein 3s;
 				}
 				h2 {
 					font-family: 'Abel';
@@ -47,6 +55,8 @@
 					color: white;
 					font-size: 80px;
 					line-height: 10px;	
+				    -webkit-animation: fadein 8s;
+
 				}
 				h4 {
 					font-family: 'Abel';
@@ -99,7 +109,21 @@
 			<ul>
 			  <li><a href="Page5.html">CONTACT</a></li>
 			  <li><a href="Page4.html">RESUME</a></li>
-			  <li><a href="Page3.html">PORTFOLIO</a></li>
+
+	  		  <li class="dropdown">
+	  		  	<a href="Page3.html" class="dropbtn"> PORTFOLIO </a>
+	  		  	<div class="dropdown-content">
+	  		  		<a href="Bluebeam.html">Bluebeam Intern</a> 
+	  		  		<a href="Scripps.html">Scripps Development Team Member</a>
+	  		  		<a href="CaSGC Intern.html">CaSGC/UCSD Intern</a> 
+	  		  		<a href="Website.html">Personal Website</a>
+	  		  		<a href="CoupleTones.html">CoupleTones</a> 
+	  		  		<a href="Actors in a Graph.html">Actors in a Graph Program</a>
+	  		  		<a href="Auto-Complete.html">Auto-Complete Program</a> 
+	  		  		<a href="2048.html">2048 Game</a> 
+	  		  	</div>
+	  		  </li>
+
 	  		  <li><a href="Page2.html">EDUCATION</a></li>
 	  		  <li><a href="Page1.html">ABOUT</a></li>
 	  		  <li><a href="index.html">HOME</a></li>
@@ -139,3 +163,8 @@
 
 
 </html>
+
+
+
+
+

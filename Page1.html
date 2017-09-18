@@ -106,6 +106,40 @@
 					color: white;
 					font-size: 30px;
 				}
+				.dropbtn {
+				    display: inline-block;
+				    color: white;
+				    text-align: center;
+				    padding: 30px 25px;
+				    text-decoration: none;
+				}
+				.dropdown:hover .dropbtn {
+				    background-color: #808B96;
+				}
+				li.dropdown {
+				    display: inline-block;
+				}
+				.dropdown-content {
+				    display: none;
+				    position: absolute;
+				    background-color: #f9f9f9;
+				    min-width: 160px;
+				    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				    z-index: 1;
+				}
+				.dropdown-content a {
+				    color: black;
+				    padding: 12px 16px;
+				    text-decoration: none;
+				    display: block;
+				    text-align: left;
+				}
+
+				.dropdown-content a:hover {background-color: #f1f1f1}
+
+				.dropdown:hover .dropdown-content {
+				    display: block;
+				}
 				.fa {					
 				  padding: 20px;
 				  font-size: 30px;
@@ -156,7 +190,19 @@
 			<ul>
 			  <li><a href="Page5.html">CONTACT</a></li>
 			  <li><a href="Page4.html">RESUME</a></li>
-			  <li><a href="Page3.html">PORTFOLIO</a></li>
+			  <li class="dropdown">
+	  		  	<a href="Page3.html" class="dropbtn"> PORTFOLIO </a>
+	  		  	<div class="dropdown-content">
+	  		  		<a href="Bluebeam.html">Bluebeam Intern</a> 
+	  		  		<a href="Scripps.html">Scripps Development Team Member</a>
+	  		  		<a href="CaSGC Intern.html">CaSGC/UCSD Intern</a> 
+	  		  		<a href="Website.html">Personal Website</a>
+	  		  		<a href="CoupleTones.html">CoupleTones</a> 
+	  		  		<a href="Actors in a Graph.html">Actors in a Graph Program</a>
+	  		  		<a href="Auto-Complete.html">Auto-Complete Program</a> 
+	  		  		<a href="2048.html">2048 Game</a> 
+	  		  	</div>
+	  		  </li>
 	  		  <li><a href="Page2.html">EDUCATION</a></li>
 	  		  <li><a href="Page1.html">ABOUT</a></li>
 	  		  <li><a href="index.html">HOME</a></li>
@@ -213,3 +259,4 @@
 
 
 </html>
+
