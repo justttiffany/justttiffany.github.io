@@ -499,4 +499,14 @@ header.masthead {
 .btn-xl {
   padding: 15px 30px; }
 
+footer {
+  padding: 50px 0;
+  background-color: #192D32; }
+  footer p {
+    font-size: 14px;
+    color: white;
+    margin: 0;
+    font-family: 'Lora'; }
+
+
 

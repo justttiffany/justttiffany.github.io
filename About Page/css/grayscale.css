@@ -75,6 +75,33 @@ a {
 }
 
 
+.first-col1 {
+   background-image: url("../img/Scripps.jpg");
+   -webkit-background-size: 100% auto;
+   -moz-background-size: 100% auto;
+   -o-background-size: 100% auto;
+    background-size: 100% auto;
+    height: 300px;
+}
+
+.second-col1 {
+   background-image: url("../img/geisel.jpg");
+   -webkit-background-size: 100% auto;
+   -moz-background-size: 100% auto;
+   -o-background-size: 100% auto;
+    background-size: 100% auto;
+    height: 300px;
+}
+
+.third-col1 {
+   background-image: url("../img/beach.jpg");
+   -webkit-background-size: 100% auto;
+   -moz-background-size: 100% auto;
+   -o-background-size: 100% auto;
+    background-size: 100% auto;
+    height: 300px;
+}
+
 
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -131,7 +158,7 @@ a {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background-color: #90A8C3;
+  background-color: #8CABBE;
   opacity: 0.9
   -webkit-background-size: cover;
   -moz-background-size: cover;
