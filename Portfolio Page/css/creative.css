@@ -312,7 +312,7 @@ header.masthead {
     width: 300px;
 }
 
-#CasgcIntern, #bluebeam, #CoupleTones {
+#bluebeam, #CasgcIntern, #CoupleTones, #Auto-Complete {
   background-color: #F2F4F4;
 }
 
@@ -357,6 +357,29 @@ header.masthead {
     height: 450px;
     width: 300px;
 }
+
+/* Website pictures */
+.first-col_3 {
+   background-image: url("../img/Website(1).png");
+   background-repeat: no-repeat;
+   -webkit-background-size: 95% auto;
+   -moz-background-size: 95% auto;
+   -o-background-size: 95% auto;
+    background-size: 95% auto;
+    height: 450px;
+    width: 300px;
+}
+.second-col_3 {
+   background-image: url("../img/Website(2).png");
+   background-repeat: no-repeat;
+   -webkit-background-size: 95% auto;
+   -moz-background-size: 95% auto;
+   -o-background-size: 95% auto;
+    background-size: 95% auto;
+    height: 450px;
+    width: 300px;
+}
+
 
 
 .portfolio-box {
