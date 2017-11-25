@@ -102,8 +102,6 @@ a {
   text-align: center;
   color: white;
   background-image: url("../img/flowers.jpeg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   opacity: 0.9
   -webkit-background-size: cover;
   -moz-background-size: cover;

@@ -138,9 +138,7 @@ header.masthead {
   color: white;
   background-color: #9590A8;
   background-image: url("../img/Lavender2.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  opacity: 0.9;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
