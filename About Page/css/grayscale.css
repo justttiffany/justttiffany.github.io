@@ -74,7 +74,6 @@ a {
     height: 300px;
 }
 
-
 .first-col1 {
    background-image: url("../img/scripps.jpg");
    -webkit-background-size: 100% auto;
@@ -102,6 +101,7 @@ a {
     height: 300px;
 }
 
+/***********************************************************/
 
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -158,7 +158,7 @@ a {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background-color: #8CABBE;
+  background-color: #B5A8D5;
   opacity: 0.9
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -176,7 +176,7 @@ a {
       height: 100%;
       padding: 0; }
       .masthead .intro-body .brand-heading {
-        font-size: 96px; }
+        font-size: 66px; }
       .masthead .intro-body .intro-text {
         font-size: 30px; } }
 
@@ -225,46 +225,6 @@ a {
   transition: all 0.3s ease-in-out;
   text-transform: uppercase;
   border-radius: 0; }
-
-
-/*all other buttons*/
-.btn-default {
-  color: white;
-  border: 2px solid #AEB6BF;
-  background-color: transparent; }
-  .btn-default:focus, .btn-default:hover {
-    color: white;
-    border: 1px solid #AEB6BF;
-    outline: none;
-    background-color: #AEB6BF; }
-
-/* Learn More button */
-.btn-default1 {
-  color: #AEB6BF;
-  border: 2px solid #AEB6BF;
-  background-color: transparent; }
-  .btn-default1:focus, .btn-default1:hover {
-    color: white;
-    border: 1px solid #AEB6BF;
-    outline: none;
-    background-color: #AEB6BF; }
-
-
-
-ul.banner-social-buttons {
-  margin-top: 0; }
-  @media (max-width: 1199px) {
-    ul.banner-social-buttons {
-      margin-top: 15px; } }
-  @media (max-width: 767px) {
-    ul.banner-social-buttons li {
-      display: block;
-      margin-bottom: 20px;
-      padding: 0; }
-      ul.banner-social-buttons li:last-child {
-        margin-bottom: 0; } }
-
-
 
 footer {
   padding: 50px 0;

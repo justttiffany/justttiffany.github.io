@@ -46,36 +46,6 @@ a {
     text-decoration: none;
     color: #1d9b6c; }
 
-/* Photos gallery */
-.first-col {
-   background-image: url("../img/chinesefood.jpg");
-   -webkit-background-size: 100% auto;
-   -moz-background-size: 100% auto;
-   -o-background-size: 100% auto;
-    background-size: 100% auto;
-    height: 300px;
-}
-
-.second-col {
-   background-image: url("../img/beach.jpg");
-   -webkit-background-size: 100% auto;
-   -moz-background-size: 100% auto;
-   -o-background-size: 100% auto;
-    background-size: 100% auto;
-    height: 300px;
-}
-
-.third-col {
-   background-image: url("../img/snowmonster.jpg");
-   -webkit-background-size: 100% auto;
-   -moz-background-size: 100% auto;
-   -o-background-size: 100% auto;
-    background-size: 100% auto;
-    height: 300px;
-}
-
-
-
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
@@ -132,6 +102,8 @@ a {
   text-align: center;
   color: white;
   background-image: url("../img/flowers.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   opacity: 0.9
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -149,7 +121,7 @@ a {
       height: 100%;
       padding: 0; }
       .masthead .intro-body .brand-heading {
-        font-size: 96px; }
+        font-size: 93px; }
       .masthead .intro-body .intro-text {
         font-size: 30px; } }
 
@@ -194,7 +166,6 @@ a {
   -o-background-size: cover;
   background-size: cover; }
 
-
 .btn {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -204,11 +175,10 @@ a {
   text-transform: uppercase;
   border-radius: 0; }
 
-
 /*all other buttons*/
 .btn-default {
   color: white;
-  border: 2px solid #AEB6BF;
+  border: 2px solid white;
   background-color: transparent; }
   .btn-default:focus, .btn-default:hover {
     color: white;
@@ -227,8 +197,6 @@ a {
     outline: none;
     background-color: #AEB6BF; }
 
-
-
 ul.banner-social-buttons {
   margin-top: 0; }
   @media (max-width: 1199px) {
@@ -241,8 +209,6 @@ ul.banner-social-buttons {
       padding: 0; }
       ul.banner-social-buttons li:last-child {
         margin-bottom: 0; } }
-
-
 
 footer {
   padding: 50px 0;
