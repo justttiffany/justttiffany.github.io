@@ -246,6 +246,17 @@ h2.bnr-sub-title
    color: #fff;
 }
 
+/* Learn More button */
+.btn-default1 {
+  color: #AEB6BF;
+  border: 2px solid #AEB6BF;
+  background-color: transparent; }
+  .btn-default1:focus, .btn-default1:hover {
+    color: white;
+    border: 1px solid #AEB6BF;
+    outline: none;
+    background-color: #AEB6BF; }
+
 /***********************************
 ************************************
 features
@@ -294,7 +305,7 @@ features
     margin: 25px 0px;
     line-height: 1.7;
 }
-#service, #blog
+#service, #portfolio
 {
     background-color: #F3F4F8;
 }
@@ -396,6 +407,79 @@ ul.service-list li i
 }
 
 
+/* Scripps pictures */
+.first-col_2 {
+   background-image: url("../img/Scripps.png");
+   background-repeat: no-repeat;
+   -webkit-background-size: 95% auto;
+   -moz-background-size: 95% auto;
+   -o-background-size: 95% auto;
+    background-size: 95% auto;
+    height: 450px;
+    width: 300px;
+}
+.second-col_2 {
+   background-image: url("../img/Scripps1.png");
+   background-repeat: no-repeat;
+   -webkit-background-size: 95% auto;
+   -moz-background-size: 95% auto;
+   -o-background-size: 95% auto;
+    background-size: 95% auto;
+    height: 450px;
+    width: 300px;
+}
+.third-col_2 {
+   background-image: url("../img/Scripps2.png");
+   background-repeat: no-repeat;
+   -webkit-background-size: 95% auto;
+   -moz-background-size: 95% auto;
+   -o-background-size: 95% auto;
+    background-size: 95% auto;
+    height: 450px;
+    width: 300px;
+}
+.fourth-col_2 {
+   background-image: url("../img/Scripps3.png");
+   background-repeat: no-repeat;
+   -webkit-background-size: 95% auto;
+   -moz-background-size: 95% auto;
+   -o-background-size: 95% auto;
+    background-size: 95% auto;
+    height: 450px;
+    width: 300px;
+}
+.first-col {
+   background-image: url("../img/Scripps4.png");
+   background-repeat: no-repeat;
+   -webkit-background-size: 95% auto;
+   -moz-background-size: 95% auto;
+   -o-background-size: 95% auto;
+    background-size: 95% auto;
+    height: 450px;
+    width: 300px;
+}
+.second-col {
+   background-image: url("../img/Scripps5.png");
+   background-repeat: no-repeat;
+   -webkit-background-size: 95% auto;
+   -moz-background-size: 95% auto;
+   -o-background-size: 95% auto;
+    background-size: 95% auto;
+    height: 450px;
+    width: 300px;
+}
+.third-col {
+   background-image: url("../img/Scripps6.png");
+   background-repeat: no-repeat;
+   -webkit-background-size: 95% auto;
+   -moz-background-size: 95% auto;
+   -o-background-size: 95% auto;
+    background-size: 95% auto;
+    height: 450px;
+    width: 300px;
+}
+
+
 footer {
   padding: 50px 0;
   background-color: #192D32; }
@@ -404,3 +488,34 @@ footer {
     color: white;
     margin: 0;
     font-family: 'Lora'; }
+
+/* Back to top button */
+.back-to-top {
+  position: fixed;
+  display: none;
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  padding: 6px 12px 9px 12px;
+  font-size: 16px;
+  border-radius: 2px;
+  right: 15px;
+  bottom: 15px;
+  transition: background 0.5s;
+}
+
+@media (max-width: 768px) {
+  .back-to-top {
+    bottom: 15px;
+  }
+}
+
+.back-to-top:focus {
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  outline: none;
+}
+
+.back-to-top:hover {
+  background: #C5C0FF;
+  color: #fff;
+}
