@@ -1,0 +1,143 @@
+<!--Website Template adapted from: https://getbootstrap.com/docs/4.1/examples/jumbotron/-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>2048 Game</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Icons adapted from: https://www.w3schools.com/icons/google_icons_intro.asp -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Back to top arrow adapted from: https://www.w3schools.com/icons/fontawesome_icons_directional.asp-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="2048.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!--Scroll back-to-top function adapted from: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up"></i></button>
+
+    <header>
+      <!--Navigation Bar adapted from: https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/index.html-->
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" id="NaviBar">
+        <div class="container d-flex justify-content-between">
+          <a href="../index.html" class="navbar-brand d-flex align-items-center">
+            <strong>T.Huang</strong>
+          </a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="../index.html#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../documents/resume.pdf">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main role="main">
+
+      <div class="jumbotron text-center" id="heading">
+        <div class="container">
+          <h1 class="portfolio-title"><b> Coursework Project </b></h1>
+          <h1 class="display-4"><strong>2048 Game</strong></h1>
+          <p>That one popular game <br> February 2015 - March 2015</p>
+        </div>
+      </div>
+
+      <div class="container spacing">
+        <h1 class="display-4 text-center"><strong>2048 Game</strong></h1>
+        <p class="lead text-muted text-center">The 2048 game, but with different colors.</p>
+        <hr>
+        <div class="row">
+          <div class="col-md-3">
+            <h2>Overview</h2>
+            <p>Programming the 2048 game was one of my course work assignments during my freshmen year in college. I created my own version of the game and got to customize the game colors to my own liking.</p>
+          </div>
+          <div class="col-md-3">
+            <h2>Skills</h2>
+            <p>I developed the game in Java. I utilized the JavaFX Library for the graphical user interface and Vim as the text editor.</p>
+          </div>
+          <div class="col-md-3">
+            <h2>Tasks</h2>
+            <p>The game was originally created in Javascript, so my task was to program the 2048 game and the GUI in the Java programming language. The task was a full-stack development.</p>
+          </div>
+          <div class="col-md-3">
+            <h2>Progress</h2>
+            <p>Given starter code, I first planned out how I would program the back-end logic of the game. This meant how users would play the game. After the back-end was done, I proceeded to customizing the user interface using JavaFX Library. In the end, I extensively tested the game to ensure a fully functional 2048 game.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-shade">
+        <div class="container spacing text-center">
+          <h1 class="display-4"><strong>Images</strong></h1>
+          <hr>
+          <p>Below are some images of my 2048 game. The color scheme reflects what I like and I hoped players would feel happy when playing!</p>
+          <br>
+          <div class="row">
+            <div class="first_image img-fluid col-sm-4" alt="2048(1) Image"> </div>
+            <div class="second_image img-fluid col-sm-4" alt="2048(2) Image"> </div>
+            <div class="third_image img-fluid col-sm-4" alt="2048(3) Image"></div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark">
+      <div class="container text-center">
+        <p class="text-light">Copyright &copy; Tiffany Huang 2018</p>
+      </div>
+    </footer>
+
+
+    <!--Scroll back-to-top function adapted from: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp-->
+    <script>
+      // When the user scrolls down 250px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+          if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+              document.getElementById("myBtn").style.display = "block";
+          } else {
+              document.getElementById("myBtn").style.display = "none";
+          }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+      }
+    </script>
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- <script>window.jQuery || document.write('<script src="vendor/jquery-slim.min.js"><\/script>')</script> -->
+    <script src="../vendor/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../vendor/holder.min.js"></script>
+  </body>
+</html>

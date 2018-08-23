@@ -1,0 +1,72 @@
+body {
+  padding-top: 3.5rem;
+}
+
+.portfolio-title {
+    font-family: 'Fira Sans', sans-serif;
+}
+h1.portfolio-title {
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Navigation Bar styling adapted from: https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/css/grayscale.css */
+#NaviBar {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: #AEB6BF;
+}
+
+#heading {
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background-color: #62BFED;
+	color: white;
+}
+
+.spacing {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.bg-shade {
+  background-color: #F3F4F8;
+}
+
+/* Thematic break adapted from: https://bootstrapmade.com/demo/Imperial/ */
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #E7C3D7;
+}
+
+/*back to top button style adapted from: https://bootstrapmade.com/demo/Regna/ */
+#myBtn {
+  position: fixed;
+  display: none;
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  padding: 6px 12px 9px 12px;
+  font-size: 16px;
+  border-radius: 2px;
+  right: 15px;
+  bottom: 15px;
+  transition: background 0.5s;
+  outline: none;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background-color: #C5C0FF;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+footer p {
+  margin-bottom: .25rem;
+}

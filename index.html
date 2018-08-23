@@ -1,8 +1,7 @@
-<!DOCTYPE html>
+<!--Website Template adapted from: https://getbootstrap.com/docs/4.1/examples/album/-->
+<!doctype html>
 <html lang="en">
-
   <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -11,136 +10,190 @@
     <title>Tiffany Huang</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
-
-    <link href="lib/animate-css/animate.min.css" rel="stylesheet">
+    <!-- Icons for contact links adapted from: https://www.w3schools.com/icons/fontawesome_icons_brand.asp -->
+    <!-- Icon for back-to-top arrow adapted from: https://www.w3schools.com/icons/fontawesome_icons_directional.asp-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="css/grayscale.css" rel="stylesheet">
-
+    <link href="portfolio.css" rel="stylesheet">
   </head>
 
-  <body id="page-top">
+  <!--JS Scrollspy that highlights your position in a navigation bar based on your scroll position adapted from: https://www.w3schools.com/bootstrap/bootstrap_ref_js_scrollspy.asp-->
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">T.Huang</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="../justttiffany.github.io/About Page/index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="../justttiffany.github.io/Portfolio Page/index.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#resume">Resume</a>
-            </li> 
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <!--Scroll back-to-top function adapted from: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up"></i></button>
 
-    <!-- Intro Header -->
-    <header class="masthead">
-      <div class="intro-body">
-        <div class="container">
-          <div class="row">
-            <div class="container wow fadeInUp">
-              <div class="col-lg-8 mx-auto">
-                <h1 class="brand-heading">Tiffany Huang</h1>
-                <p class="intro-text">Student @ UC San Diego
-                  <br>Aspiring Software Engineer</p>
-                <a href="#about" class="btn btn-circle js-scroll-trigger">
-                  <i class="fa fa-angle-double-down animated"></i>
-                </a>
-              </div>
-            </div>
+    <header>
+      <!--Navigation Bar adapted from: https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/index.html-->
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" id="NaviBar">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <strong>T.Huang</strong>
+          </a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="documents/resume.pdf">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
+      </nav>    
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="content-section text-center">
+    <main role="main">
+
       <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
+        <div class="jumbotron text-center">
+          <h1 class="display-3">Tiffany Huang</h1>
+          <p class="lead text-muted">Software Engineer</p>
+          <hr class="my-4">
+          <p>Hello! I recently graduated from <b>UC San Diego</b> with a degree in <b>Computer Science</b>.</p>
+          <p>I aim to gain experience while utilizing my software development and critical thinking skills.  I am always open to learning new things and taking on new challenges.</p>
+          <a class="btn btn-outline-info btn-lg" href="documents/resume.pdf" role="button">View My Resume →</a>
+        </div>
+      </div>
 
-            <h2 style="color: #A7A6B0">Hi, I'm Tiffany Huang.</h2>
-            <p style="color: #A7A6B0">I am a currently <b> fourth-year undergraduate </b> student at <b> UC San Diego</b>, studying <b> Computer Science </b>!</p>
+      <div class="album py-5" id="portfolio">
+        <div class="container">
 
-            <ul class="list-inline banner-social-buttons">
-              <li class="list-inline-item">
-                <a href="../justttiffany.github.io/About Page/index.html" class="btn btn-default1 btn-lg">
-                  <span class="network-name">More About Me → </span>
-                </a>
-              </li>
-            </ul>
+          <h1 class="display-4 text-center"><strong>My Portfolio</strong></h1>
+          <hr>
+          <p class="lead text-muted text-center">A collection of my work experience and projects.</p>
+
+          <div class="row">
+            
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img src="images/bluebeam.jpg" class="card-img-top" alt="Bluebeam Logo">
+                <div class="card-body">
+                  <p class="card-text"><strong>Experience</strong></p>
+                  <p>Software Development Engineering Intern</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="btn btn-sm btn-outline-info" href="bluebeam/index.html" role="button">View</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img src="images/scrippslogo.png" class="card-img-top" alt="Scripps Image">
+                <div class="card-body">
+                  <p class="card-text"><strong>Experience</strong></p>
+                  <p>Software Development Team Member</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="btn btn-sm btn-outline-info" href="scripps/index.html" role="button">View</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img src="images/ucsd.png" class="card-img-top" alt="UCSD image">
+                <div class="card-body">
+                  <p class="card-text"><strong>Experience</strong></p>
+                  <p>Software Development Team Member</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <p>In Progress!</p>
+                      <!-- <a class="btn btn-sm btn-outline-info" href="casgc/index.html" role="button">View</a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img src="images/Music.png" class="card-img-top" alt="Music image">
+                <div class="card-body">
+                  <p class="card-text"><strong>Project</strong></p>
+                  <p>Music Playlist Management Redesign</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="btn btn-sm btn-outline-info" href="music/index.html" role="button">View</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img src="images/android.png" class="card-img-top" alt="Android image">
+                <div class="card-body">
+                  <p class="card-text"><strong>Project</strong></p>
+                  <p>CoupleTones</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="btn btn-sm btn-outline-info" href="coupletones/index.html" role="button">View</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img src="images/2048.png" class="card-img-top" alt="2048 image">
+                <div class="card-body">
+                  <p class="card-text"><strong>Project</strong></p>
+                  <p>2048 Game</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a class="btn btn-sm btn-outline-info" href="2048/index.html" role="button">View</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
           </div>
         </div>
       </div>
-    </section>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio-section content-section text-center">
-      <div class="container">
-        <div class="col-lg-8 mx-auto">
-          <h2>My Portfolio</h2>
-          <p>A collection of my <b>experiences</b> and <b>projects</b>.</p>
-          <a href="../justttiffany.github.io/Portfolio Page/index.html" class="btn btn-default btn-lg">View My Portfolio → </a>
-        </div>
-      </div>
-    </section>
+    </main>
 
-    <!-- Resume Section -->
-    <section id="resume" class="resume-section content-section text-center">
-      <div class="container">
-        <div class="col-lg-8 mx-auto">
-          <h2>My Resume</h2>
-          <p>With a passion for learning new skills and taking on new challenges, I aim to gain experience while utilizing my software development and critical thinking skills. <br> <br> I am currently seeking <b> full-time, entry-level </b> positions in <b> software engineering/development </b> with an interest in front-end development!</p>
-          <a href="../justttiffany.github.io/TiffanyResume.pdf" class="btn btn-default btn-lg">View My Resume → </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="content1-section text-center">
+    <!--Contact section adapted from: https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/index.html-->
+    <section id="contact" class="contact-section text-center">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>Contact</h2>
-            <p>Connect with me using the links below! </p>
+            <h1 class="display-4"><strong>Contact</strong></h1>
+            <hr>
+            <p class="lead text-muted">Connect with me using the links below! </p>
             <ul class="list-inline banner-social-buttons">
               <li class="list-inline-item">
-                <a href="https://linkedin.com/in/t-huang" class="btn btn-default btn-lg">
-                  <i class="fa fa-linkedin fa-fw"></i>
-                  <span class="network-name">LinkedIn</span>
+                <a class="btn btn-outline-info btn-lg" href="https://linkedin.com/in/t-huang" role="button">
+                  <i class="fa fa-linkedin fa-fw"></i>LinkedIn
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://github.com/justttiffany" class="btn btn-default btn-lg">
-                  <i class="fa fa-github fa-fw"></i>
-                  <span class="network-name">Github</span>
+                <a class="btn btn-outline-info btn-lg" href="https://github.com/justttiffany" role="button">
+                  <i class="fa fa-github fa-fw"></i>Github
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://instagram.com/justttiffany" class="btn btn-default btn-lg">
-                  <i class="fa fa-instagram fa-fw"></i>
-                  <span class="network-name">Instagram</span>
+                <a class="btn btn-outline-info btn-lg" href="https://instagram.com/justttiffany" role="button">
+                  <i class="fa fa-instagram fa-fw"></i>Instagram
                 </a>
               </li>
             </ul>
@@ -148,44 +201,41 @@
         </div>
       </div>
     </section>
-
 
     <!-- Footer -->
-    <footer>
+    <footer class="bg-dark">
       <div class="container text-center">
-        <p>Copyright &copy; Tiffany Huang 2017</p>
+        <p class="text-light">Copyright &copy; Tiffany Huang 2018</p>
       </div>
     </footer>
 
-    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!--Scroll back-to-top function adapted from: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp-->
+    <script>
+      // When the user scrolls down 250px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+          if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+              document.getElementById("myBtn").style.display = "block";
+          } else {
+              document.getElementById("myBtn").style.display = "none";
+          }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+      }
+    </script>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/grayscale.min.js"></script>
-
-    <!-- Required JavaScript Libraries -->
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-    <script src="lib/superfish/hoverIntent.js"></script>
-    <script src="lib/superfish/superfish.min.js"></script>
-    <script src="lib/morphext/morphext.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/stickyjs/sticky.js"></script>
-    <script src="lib/easing/easing.js"></script>
-
-    <!-- Template Specisifc Custom Javascript File -->
-    <script src="js/custom.js"></script>
-
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- <script>window.jQuery || document.write('<script src="vendor/jquery-slim.min.js"><\/script>')</script> -->
+    <script src="vendor/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="vendor/holder.min.js"></script>
   </body>
-
 </html>

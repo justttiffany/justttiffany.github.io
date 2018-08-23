@@ -1,0 +1,232 @@
+<!--Website Template adapted from: https://getbootstrap.com/docs/4.1/examples/jumbotron/-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Scripps</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Icons adapted from: https://www.w3schools.com/icons/google_icons_intro.asp -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Back to top arrow adapted from: https://www.w3schools.com/icons/fontawesome_icons_directional.asp-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="scripps.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!--Scroll back-to-top function adapted from: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up"></i></button>
+
+    <header>
+      <!--Navigation Bar adapted from: https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/index.html-->
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" id="NaviBar">
+        <div class="container d-flex justify-content-between">
+          <a href="../index.html" class="navbar-brand d-flex align-items-center">
+            <strong>T.Huang</strong>
+          </a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="../index.html#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../documents/resume.pdf">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main role="main">
+
+      <div class="jumbotron text-center" id="heading">
+        <div class="container">
+          <h1 class="portfolio-title"><b>Scripps Institute of Oceanography</b></h1>
+          <h1 class="display-4"><strong>Software Development Team Member</strong></h1>
+          <p>UC San Diego <br> April 2017 - June 2017</p>
+        </div>
+      </div>
+
+      <div class="container spacing">
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Role <i class="material-icons">person</i> </h2>
+            <p>I was a <b>Software Development Team Member</b> during a 3 month project carried out by a researcher at the Scripps Institute of Oceanography.  My focus was as a <b>front-end software developer</b>.</p>
+          </div>
+          <div class="col-md-4">
+            <h2>Team  <i class="material-icons">group</i></h2>
+            <p>I worked in a team of <b>4 people</b> under the supervision of a Scripps researcher.  The team comprised of 4 <b>software developers</b>, who are all currently UCSD undergraduate students.</p>
+          </div>
+          <div class="col-md-4">
+            <h2>Work <i class="material-icons">border_color</i></h2>
+            <p>The team worked on continuing the <b>development of a Convolutional Neural Network</b> that can categorize and classify recorded fish noises according to species.</p>
+          </div>
+        </div>
+      </div> 
+
+      <div class="bg-shade">
+        <div class="container spacing">
+          <h1 class="display-4 text-center"><strong>Underwater Acoustics: When fishes can make noise</strong></h1>
+          <p class="lead text-muted text-center">Underwater Acoustics is a <b>Scripps project</b>, implemented under the guidance of Dr. Ana Sirovic, a researcher at the Marine Acoustics Lab of the Scripps Institute of Oceanography.  The project came about by researchers at the Scripps Institute of Oceanography when they decided to <b>deploy a detector</b> which recorded ocean sounds following the Deepwater Horizon Oil Spill of 2010.  The detector was left in the area for <b>7 years</b> and has since collected a significant amount of acoustic data, much of which is comprised of <b>fish calls</b>.</p>
+          <hr>
+          <div class="row">
+            <div class="col-md-3">
+              <h2>Overview</h2>
+              <p>It is often unclear to what extent human activities have damaged ocean environments and whether or not our actions have been effective in repairing damaged habitats and restoring marine populations to their former states. Our project aims to address this issue by allowing researchers to monitor trends in sea life over long periods of time.</p>
+            </div>
+            <div class="col-md-3">
+              <h2>Problem</h2>
+              <p>Of the 7 years of acoustic data, researchers have been able to successfully anotate 2 years worth, classifying recurring acoustic patterns by the fish species that are believed to have produced them. This, however, is not an efficient process and even if researchers were to successfully parse all of the data, the question remains: What should be done with all of this information?</p>
+            </div>
+            <div class="col-md-3">
+              <h2>Solution</h2>
+              <p>Convolutional Neural Networks.  By taking the 2 years of annotated data and feeding it into a custom CNN as training data, the remaining data can be systematically organized and classified. Further, by developing a detector in parallel, the Neural Network can be used as a research tool for the long-term surveilance of sea-life populations.</p>
+            </div>
+            <div class="col-md-3">
+              <h2>Deliverables</h2>
+              <p>Our project deliverables included three things: (1)<b> An Automated Detector</b> - takes in acoustic data and outputs the time of signal occurence., (2)<b> A User Friendly Interface</b> - an executable with means of interfacing between detector and classifier to allow researchers without a deep knowledge of MATLAB to use the tool, and (3)<b> The Classifier</b> - a CNN designed to classify fish species by the noises they produce.</p>
+            </div>
+          </div>
+        </div>
+      </div> 
+
+      <div class="container spacing">
+        <h1 class="display-4 text-center"><strong>What I Did</strong></h1>
+        <p class="lead text-muted text-center">My task, along with one other team member, was to implement a user-friendly, graphical user interface of the Convolutional Neutral Network program to improve usability. <br> <br> In addition to the GUI, my teammate and I developed and maintained a website to document progress.  Please check it out for more detailed information on this project and the team. <br> <br>
+          <a href="https://underwateracoustics.netlify.com" class="btn btn-outline-info btn-lg" role="button">View Website →</a>
+        </p>
+        <br>
+        <hr>
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Overview</h2>
+            <p>My team decided to divide into 2 sub-teams to take on the deliverables. With that, I and one other teammate took on the task of implementing the <b>User Friendly Interface</b> program for the CNN.</p>
+          </div>
+          <div class="col-md-4">
+            <h2>Skills</h2>
+            <p>The development and technology tools used for this project included <b>MATLAB</b> for development and <b>GitHub</b> for version control.</p>
+          </div>
+          <div class="col-md-4">
+            <h2>Task</h2>
+            <p>My teammate and I worked on <b>implementing a GUI</b> for the CNN so researchers of any background can easily use and navigate with data they had.  I developed the interface using <b>MATLAB's GUIDE tool</b> and consistently <b>tested</b> the program throughout the development phase.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-shade">
+        <div class="container spacing">
+          <h1 class="display-4 text-center"><strong>In-Progress Images</strong></h1>
+          <p class="lead text-muted text-center">Below are some images of the progress my teammate and I made midway of the project of the interface.<br> <br>The images below show how the interface looks when it is opened for the first time.  The user is shown a menu of what they would like to do and they select sound files they would like to begin testing.<br> <br><i>***Unfortunately, I do not have images of how the original program worked before implementation of this project began.***</i></p>
+          <hr>
+          <br>
+          <div class="row">
+            <div class="first_image img-fluid col-sm-6" alt="Scripps1 Image"> </div>
+            <div class="second_image img-fluid col-sm-6" alt="Scripps2 Image"> </div>
+            <div class="third_image img-fluid col-sm-6" alt="Scripps3 Image"></div>
+            <div class="fourth_image img-fluid col-md-6" alt="Scripps4 Image"></div>
+          </div>
+        </div>
+      </div> 
+
+      <div class="container spacing">
+        <h1 class="display-4 text-center"><strong>The Process</strong></h1>
+        <p class="lead text-muted text-center">Here was my process through working on this task (quarter-long project): </p>
+        <hr>
+        <div class="row">
+          <p>
+            <ul> 
+              <li>
+                Began looking through the existing code legacy to understand what each file did
+              </li>
+              <li>
+                Replicated the program to get an idea of how the program worked with the data passed in by users
+              </li>
+              <li>
+                Researched how to create a GUI in MATLAB and began implementation of task
+              </li>
+              <li>
+                Ported over the existing code base to the GUI program and modified the files to work towards a working interface
+              </li>
+              <li>
+                Extensive testing to ensure the end product met the baseline functionality
+              </li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="bg-shade">
+        <div class="container spacing">
+          <h1 class="display-4 text-center"><strong>More Images</strong></h1>
+          <p class="lead text-muted text-center">Below are some more images of the progress my teammate and I made near the end of the project of the interface.<br> <br> Users are able to automate the CNN and train the data.  The last photo shows the overall final user interface, where users are able to complete their tasks within one whole interface.</p>
+          <hr>
+          <br>
+          <div class="row">
+            <div class="fifth_image img-fluid col-sm-6" alt="Scripps5 Image"> </div>
+            <div class="sixth_image img-fluid col-sm-6" alt="Scripps6 Image"> </div>
+            <div class="seventh_image img-fluid col-sm-6" alt="Scripps7 Image"></div>
+          </div>
+        </div>
+      </div> 
+
+      <div class="container spacing text-center">
+        <h1 class="display-4"><strong>Reflection</strong></h1>
+        <hr>
+        <p>Overall, the project was a great way to get experience on working in a team and gaining technical skills.  I learned new skills, such as programming in MATLAB and developing a GUI using MATLAB'S GUIDE tool.  However, that happened to also be a challenge for me.  Prior to this project, I had no knowledge in programming in MATLAB.  Additionally, I did not know about Convolutional Neural Networks.  I overcame these obstacles by consulting my teammates for help when I needed to and doing lots of research while developing this project.  <br> <br> Also, throughout the project, we were well-monitored by the Scripps researcher by having bi-weekly check-ins to give updates on our progress and receiving feedback on how we were doing. At the end of the quarter, we turned in the final product and it was used to demo at a science conference the next month!</p>
+      </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark">
+      <div class="container text-center">
+        <p class="text-light">Copyright &copy; Tiffany Huang 2018</p>
+      </div>
+    </footer>
+
+    <!--Scroll back-to-top function adapted from: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp-->
+    <script>
+      // When the user scrolls down 250px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+          if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+              document.getElementById("myBtn").style.display = "block";
+          } else {
+              document.getElementById("myBtn").style.display = "none";
+          }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+      }
+    </script>
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- <script>window.jQuery || document.write('<script src="vendor/jquery-slim.min.js"><\/script>')</script> -->
+    <script src="../vendor/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../vendor/holder.min.js"></script>
+  </body>
+</html>
